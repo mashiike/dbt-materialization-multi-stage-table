@@ -1,0 +1,17 @@
+version: 2
+
+seeds:
+  - name: action_log
+    config:
+      column_types:
+        timestamp: timestamp
+        user_id: bigint
+        platform: varchar
+        action: varchar
+  - name: expected
+    config:
+      column_types:
+        stage: varchar
+        ymd: date
+        platform: varchar
+        uu: integer

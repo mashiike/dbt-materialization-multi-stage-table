@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dau
+    tests:
+      - dbt_utils.equality:
+          compare_model: ref('expected')
+          compare_columns:
+            - stage
+            - ymd
+            - platform
+            - uu

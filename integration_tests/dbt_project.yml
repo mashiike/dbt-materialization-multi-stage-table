@@ -1,0 +1,28 @@
+name: 'dbt_run_metrics_ref_integration_tests'
+version: '0.0.0'
+config-version: 2
+
+profile: 'integration_tests'
+
+vars:
+  run_metrics:
+    additional_infomation:
+      git_version: "{{ env_var('GIT_VER','') }}"
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+quoting:
+  identifier: false
+  schema: false
+
+models:

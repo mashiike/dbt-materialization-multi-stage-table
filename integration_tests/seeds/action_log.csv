@@ -1,0 +1,12 @@
+timestamp,user_id,platform,action
+2022/12/15 00:00:01,1,iOS,login
+2022/12/15 00:00:31,2,Android,login
+2022/12/15 00:00:52,3,Web,login
+2022/12/15 00:01:02,3,Web,view_page
+2022/12/15 00:01:05,2,Android,view_page
+2022/12/15 00:01:12,1,iOS,view_page
+2022/12/15 00:01:13,4,iOS,login
+2022/12/15 00:01:16,5,Android,login
+2022/12/15 00:01:38,6,Web,login
+2022/12/15 00:01:38,6,Android,login
+2022/12/15 00:01:38,6,iOS,login
