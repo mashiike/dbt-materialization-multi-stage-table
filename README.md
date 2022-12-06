@@ -1,4 +1,5 @@
-# dbt-multi-stage-table
+# dbt-materialization-multi-stage-table
+
 The [dbt package](https://docs.getdbt.com/docs/building-a-dbt-project/package-management) for multi-stage table materialization  
 **Note: This is a PoC DBT package**.
 
